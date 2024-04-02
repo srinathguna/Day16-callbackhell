@@ -1,7 +1,9 @@
+//Reset the body styles
 document.body.style.margin = '0';
 document.body.style.padding = '0';
 document.body.style.height = '100vh';
 document.body.style.backgroundColor = '#f7f7f7';
+
 //element created
 let element1 = document.createElement('h1');
 element1.style.fontSize = '100px'
@@ -42,7 +44,6 @@ setTimeout(() => {
                                         element1.style.color = '#fff'
                                         setTimeout(() => {
                                             element1.innerHTML = 'Happy Independence Day...!';
-                                            console.log("happy independence day")
                                         }, 1000)
                                     }, 1000)
                                 }, 1000)
