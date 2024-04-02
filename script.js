@@ -44,6 +44,8 @@ setTimeout(() => {
                                         element1.style.color = '#fff'
                                         setTimeout(() => {
                                             element1.innerHTML = 'Happy Independence Day...!';
+                                            element1.style.backgroundImage = 'linear-gradient(180deg, rgba(254,166,59,1) 0%, rgba(254,254,254,1) 50%, rgba(0,255,76,1) 100%)';
+                                             element1.style.color = '#484646'
                                         }, 1000)
                                     }, 1000)
                                 }, 1000)
